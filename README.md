@@ -17,7 +17,9 @@ The four forms of **defensive disruption** guide the investigation:
 - **Space creation:** Opening passing lanes, gaps, or receiving opportunities for teammates.
 - **Disorganization:** Altering local defensive arrangements in ways that can be exploited.
 
-These are research concepts, **not yet finalized labels or validated measurements**. The data feasibility study will determine which can be measured reliably.
+These are research concepts, **not yet finalized labels or validated measurements**. Penetration and exploitable space are promising initial outcomes. Stretching and disorganization remain objectives, but changes between snapshots require validated temporal and spatial comparability. Do not combine the concepts into an unvalidated overall score.
+
+Local density alone does not establish a low block or compact team formation. Develop and validate operational definitions, use preprocessing and feature engineering, and manually review representative and edge cases. Handle ambiguous or insufficiently observed situations explicitly, and distinguish local configurations from whole-team formations.
 
 ## Proposed analysis
 
@@ -27,7 +29,7 @@ The project will compare progressively richer models of attacking-action effecti
 2. **Spatial model:** Baseline information plus visible defender positions, local spacing, and available space.
 3. **Sequence-aware model:** Spatial information plus recent attacking events, tempo, and possession buildup.
 
-The main goal is to test whether defensive context and prior actions improve predictions of measurable disruption. Player-level comparisons are a possible *exploratory application*, subject to adequate sample sizes.
+The sequence-aware approach uses event sequences, not continuous tracking. Compare models using defensible outcomes, consistent evaluation samples where appropriate, and safeguards against data leakage. Player-level comparisons are a possible *exploratory application*, subject to adequate sample sizes.
 
 **Important limitation:** StatsBomb 360 data provides event-time snapshots of *visible* players, not continuous tracking of every player. Any changes in defensive shape across snapshots must account for differences in visibility and cannot automatically be interpreted as the movement of the same defenders.
 
@@ -41,7 +43,17 @@ The main goal is to test whether defensive context and prior actions improve pre
 | FIFA World Cup 2022 | 43 | 106 | Candidate international-match dataset |
 | UEFA Euro 2024 | 55 | 282 | Initial inspection and candidate main dataset |
 
-These competitions are **proposed sources**, not yet a verified analysis sample. Data availability, event/360 joins, coverage, file sizes, missingness, and usable observations will be measured during feasibility work. Source download dates, relevant data issues, and any changes to the selected dataset will be documented here as the project develops. Check the source's usage terms and attribution requirements before redistributing data or outputs.
+The following original JSON files were downloaded on 2026-11-07 from the [official StatsBomb Open Data repository](https://github.com/hudl/open-data), under `data/raw/statsbomb/`. Match lists are verified; only one match per tournament has been inspected. Sizes are bytes.
+
+| Tournament | Match list (bytes; listed matches) | Sample match | Event file (bytes) | 360 file (bytes) |
+|---|---|---|---:|---:|
+| Euro 2024 | [55/282.json](https://raw.githubusercontent.com/hudl/open-data/master/data/matches/55/282.json) (93,280; 51) | Portugal–Czech Republic, 3930166 | [events](https://raw.githubusercontent.com/hudl/open-data/master/data/events/3930166.json) (3,146,279) | [360](https://raw.githubusercontent.com/hudl/open-data/master/data/three-sixty/3930166.json) (7,720,490) |
+| World Cup 2022 | [43/106.json](https://raw.githubusercontent.com/hudl/open-data/master/data/matches/43/106.json) (119,132; 64) | Canada–Morocco, 3857276 | [events](https://raw.githubusercontent.com/hudl/open-data/master/data/events/3857276.json) (2,811,450) | [360](https://raw.githubusercontent.com/hudl/open-data/master/data/three-sixty/3857276.json) (5,743,429) |
+| Euro 2020 | [55/43.json](https://raw.githubusercontent.com/hudl/open-data/master/data/matches/55/43.json) (93,844; 51) | Ukraine–North Macedonia, 3788758 | [events](https://raw.githubusercontent.com/hudl/open-data/master/data/events/3788758.json) (2,882,230) | [360](https://raw.githubusercontent.com/hudl/open-data/master/data/three-sixty/3788758.json) (6,250,243) |
+
+Run `python src/feasibility.py` from the project root to regenerate the summary, action coverage, and field inventory CSVs in `results/`. These samples do not establish event or 360 coverage across all 166 listed matches. The official repository asks published research to credit StatsBomb and use its logo; review its terms before sharing outputs.
+
+Across the three inspected matches, 8,685 of 10,335 events (84.0%) join to a 360 frame, including 2,353 passes and 2,122 carries. Core inspected event and 360 fields have compatible types across the samples. Some events lack frames or locations, and visible defender counts vary. These observations support further investigation; they do not validate tactical labels or establish full-tournament data quality.
 
 ## Repository layout
 
@@ -58,7 +70,7 @@ Project/
 └── results/            # Generated tables, figures, and model outputs
 ```
 
-The project brief is stored in `docs/`. The research state will be maintained in `docs/MEMORY.md`, and substantive work sessions will be summarized in `docs/JOURNAL.md`.
+The project brief is `docs/CompSci 715 Project Brief.pdf`. The research state will be maintained in `docs/MEMORY.md`, and substantive work sessions will be summarized in `docs/JOURNAL.md`.
 
 ## Getting started
 
@@ -71,4 +83,4 @@ python -m pip install -r requirements.txt
 
 Review potential effects on other class work before installing or changing packages in this shared environment. Requirements are unpinned until the full set has been tested together.
 
-**Next steps:** Resolve missing dependencies as needed, inspect a small sample of real event and 360 files, document data quality and usable coverage, and produce the feasibility evidence for the project proposal.
+**Next steps:** Investigate broader coverage and representative examples, refine and validate feasible measures, and prepare the project proposal. Resolve missing dependencies when needed.

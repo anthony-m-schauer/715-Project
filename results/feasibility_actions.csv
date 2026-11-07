@@ -1,0 +1,19 @@
+tournament,match_id,action,events,event_location,joined_360,joined_with_event_location,joined_with_location_and_visible_defender
+Euro 2024,3930166,Ball Receipt*,1009,1009,859,859,859
+Euro 2024,3930166,Carry,830,830,729,729,729
+Euro 2024,3930166,Dribble,25,25,18,18,18
+Euro 2024,3930166,Miscontrol,17,17,13,13,13
+Euro 2024,3930166,Pass,1027,1027,804,804,804
+Euro 2024,3930166,Shot,24,24,24,24,24
+World Cup 2022,3857276,Ball Receipt*,868,868,773,773,772
+World Cup 2022,3857276,Carry,782,782,708,708,707
+World Cup 2022,3857276,Dribble,39,39,28,28,28
+World Cup 2022,3857276,Miscontrol,32,32,25,25,25
+World Cup 2022,3857276,Pass,955,955,794,794,793
+World Cup 2022,3857276,Shot,12,12,11,11,11
+Euro 2020,3788758,Ball Receipt*,890,890,769,769,769
+Euro 2020,3788758,Carry,762,762,685,685,685
+Euro 2020,3788758,Dribble,33,33,29,29,29
+Euro 2020,3788758,Miscontrol,34,34,29,29,29
+Euro 2020,3788758,Pass,925,925,755,755,755
+Euro 2020,3788758,Shot,30,30,26,26,26

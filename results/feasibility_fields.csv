@@ -1,0 +1,199 @@
+tournament,match_id,record_type,field,present,total,types
+Euro 2024,3930166,event,50_50,4,3610,dict:4
+Euro 2024,3930166,event,bad_behaviour,1,3610,dict:1
+Euro 2024,3930166,event,ball_receipt,190,3610,dict:190
+Euro 2024,3930166,event,ball_recovery,13,3610,dict:13
+Euro 2024,3930166,event,carry,830,3610,dict:830
+Euro 2024,3930166,event,clearance,42,3610,dict:42
+Euro 2024,3930166,event,counterpress,85,3610,bool:85
+Euro 2024,3930166,event,dribble,25,3610,dict:25
+Euro 2024,3930166,event,duel,71,3610,dict:71
+Euro 2024,3930166,event,duration,2601,3610,float:2601
+Euro 2024,3930166,event,foul_committed,8,3610,dict:8
+Euro 2024,3930166,event,foul_won,6,3610,dict:6
+Euro 2024,3930166,event,goalkeeper,26,3610,dict:26
+Euro 2024,3930166,event,id,3610,3610,str:3610
+Euro 2024,3930166,event,index,3610,3610,int:3610
+Euro 2024,3930166,event,injury_stoppage,1,3610,dict:1
+Euro 2024,3930166,event,interception,21,3610,dict:21
+Euro 2024,3930166,event,location,3582,3610,list:3582
+Euro 2024,3930166,event,minute,3610,3610,int:3610
+Euro 2024,3930166,event,off_camera,25,3610,bool:25
+Euro 2024,3930166,event,out,26,3610,bool:26
+Euro 2024,3930166,event,pass,1027,3610,dict:1027
+Euro 2024,3930166,event,period,3610,3610,int:3610
+Euro 2024,3930166,event,play_pattern,3610,3610,dict:3610
+Euro 2024,3930166,event,player,3592,3610,dict:3592
+Euro 2024,3930166,event,position,3592,3610,dict:3592
+Euro 2024,3930166,event,possession,3610,3610,int:3610
+Euro 2024,3930166,event,possession_team,3610,3610,dict:3610
+Euro 2024,3930166,event,related_events,3493,3610,list:3493
+Euro 2024,3930166,event,second,3610,3610,int:3610
+Euro 2024,3930166,event,shot,24,3610,dict:24
+Euro 2024,3930166,event,substitution,10,3610,dict:10
+Euro 2024,3930166,event,tactics,6,3610,dict:6
+Euro 2024,3930166,event,team,3610,3610,dict:3610
+Euro 2024,3930166,event,timestamp,3610,3610,str:3610
+Euro 2024,3930166,event,type,3610,3610,dict:3610
+Euro 2024,3930166,event,under_pressure,666,3610,bool:666
+Euro 2024,3930166,360,event_uuid,2974,2974,str:2974
+Euro 2024,3930166,360,freeze_frame,2974,2974,list:2974
+Euro 2024,3930166,360,visible_area,2974,2974,list:2974
+Euro 2024,3930166,360_player,actor,52558,52558,bool:52558
+Euro 2024,3930166,360_player,keeper,52558,52558,bool:52558
+Euro 2024,3930166,360_player,location,52558,52558,list:52558
+Euro 2024,3930166,360_player,teammate,52558,52558,bool:52558
+Euro 2024,3930166,pass,aerial_won,27,1027,bool:27
+Euro 2024,3930166,pass,angle,1027,1027,float:1027
+Euro 2024,3930166,pass,assisted_shot_id,19,1027,str:19
+Euro 2024,3930166,pass,body_part,971,1027,dict:971
+Euro 2024,3930166,pass,cross,26,1027,bool:26
+Euro 2024,3930166,pass,cut_back,6,1027,bool:6
+Euro 2024,3930166,pass,end_location,1027,1027,list:1027
+Euro 2024,3930166,pass,goal_assist,1,1027,bool:1
+Euro 2024,3930166,pass,height,1027,1027,dict:1027
+Euro 2024,3930166,pass,inswinging,2,1027,bool:2
+Euro 2024,3930166,pass,length,1027,1027,float:1027
+Euro 2024,3930166,pass,miscommunication,1,1027,bool:1
+Euro 2024,3930166,pass,no_touch,1,1027,bool:1
+Euro 2024,3930166,pass,outcome,207,1027,dict:207
+Euro 2024,3930166,pass,outswinging,3,1027,bool:3
+Euro 2024,3930166,pass,recipient,1011,1027,dict:1011
+Euro 2024,3930166,pass,shot_assist,18,1027,bool:18
+Euro 2024,3930166,pass,straight,1,1027,bool:1
+Euro 2024,3930166,pass,switch,31,1027,bool:31
+Euro 2024,3930166,pass,technique,9,1027,dict:9
+Euro 2024,3930166,pass,through_ball,3,1027,bool:3
+Euro 2024,3930166,pass,type,178,1027,dict:178
+Euro 2024,3930166,carry,end_location,830,830,list:830
+World Cup 2022,3857276,event,50_50,2,3388,dict:2
+World Cup 2022,3857276,event,ball_receipt,79,3388,dict:79
+World Cup 2022,3857276,event,ball_recovery,5,3388,dict:5
+World Cup 2022,3857276,event,block,3,3388,dict:3
+World Cup 2022,3857276,event,carry,782,3388,dict:782
+World Cup 2022,3857276,event,clearance,41,3388,dict:41
+World Cup 2022,3857276,event,counterpress,100,3388,bool:100
+World Cup 2022,3857276,event,dribble,39,3388,dict:39
+World Cup 2022,3857276,event,duel,63,3388,dict:63
+World Cup 2022,3857276,event,duration,2520,3388,float:2520
+World Cup 2022,3857276,event,foul_committed,7,3388,dict:7
+World Cup 2022,3857276,event,foul_won,11,3388,dict:11
+World Cup 2022,3857276,event,goalkeeper,16,3388,dict:16
+World Cup 2022,3857276,event,id,3388,3388,str:3388
+World Cup 2022,3857276,event,index,3388,3388,int:3388
+World Cup 2022,3857276,event,injury_stoppage,2,3388,dict:2
+World Cup 2022,3857276,event,interception,23,3388,dict:23
+World Cup 2022,3857276,event,location,3359,3388,list:3359
+World Cup 2022,3857276,event,minute,3388,3388,int:3388
+World Cup 2022,3857276,event,miscontrol,1,3388,dict:1
+World Cup 2022,3857276,event,off_camera,37,3388,bool:37
+World Cup 2022,3857276,event,out,27,3388,bool:27
+World Cup 2022,3857276,event,pass,955,3388,dict:955
+World Cup 2022,3857276,event,period,3388,3388,int:3388
+World Cup 2022,3857276,event,play_pattern,3388,3388,dict:3388
+World Cup 2022,3857276,event,player,3368,3388,dict:3368
+World Cup 2022,3857276,event,position,3368,3388,dict:3368
+World Cup 2022,3857276,event,possession,3388,3388,int:3388
+World Cup 2022,3857276,event,possession_team,3388,3388,dict:3388
+World Cup 2022,3857276,event,related_events,3222,3388,list:3222
+World Cup 2022,3857276,event,second,3388,3388,int:3388
+World Cup 2022,3857276,event,shot,12,3388,dict:12
+World Cup 2022,3857276,event,substitution,10,3388,dict:10
+World Cup 2022,3857276,event,tactics,7,3388,dict:7
+World Cup 2022,3857276,event,team,3388,3388,dict:3388
+World Cup 2022,3857276,event,timestamp,3388,3388,str:3388
+World Cup 2022,3857276,event,type,3388,3388,dict:3388
+World Cup 2022,3857276,event,under_pressure,608,3388,bool:608
+World Cup 2022,3857276,360,event_uuid,2873,2873,str:2873
+World Cup 2022,3857276,360,freeze_frame,2873,2873,list:2873
+World Cup 2022,3857276,360,visible_area,2873,2873,list:2873
+World Cup 2022,3857276,360_player,actor,37901,37901,bool:37901
+World Cup 2022,3857276,360_player,keeper,37901,37901,bool:37901
+World Cup 2022,3857276,360_player,location,37901,37901,list:37901
+World Cup 2022,3857276,360_player,teammate,37901,37901,bool:37901
+World Cup 2022,3857276,pass,aerial_won,13,955,bool:13
+World Cup 2022,3857276,pass,angle,955,955,float:955
+World Cup 2022,3857276,pass,assisted_shot_id,7,955,str:7
+World Cup 2022,3857276,pass,body_part,899,955,dict:899
+World Cup 2022,3857276,pass,cross,14,955,bool:14
+World Cup 2022,3857276,pass,deflected,1,955,bool:1
+World Cup 2022,3857276,pass,end_location,955,955,list:955
+World Cup 2022,3857276,pass,goal_assist,1,955,bool:1
+World Cup 2022,3857276,pass,height,955,955,dict:955
+World Cup 2022,3857276,pass,inswinging,3,955,bool:3
+World Cup 2022,3857276,pass,length,955,955,float:955
+World Cup 2022,3857276,pass,miscommunication,2,955,bool:2
+World Cup 2022,3857276,pass,outcome,165,955,dict:165
+World Cup 2022,3857276,pass,outswinging,4,955,bool:4
+World Cup 2022,3857276,pass,recipient,869,955,dict:869
+World Cup 2022,3857276,pass,shot_assist,6,955,bool:6
+World Cup 2022,3857276,pass,switch,31,955,bool:31
+World Cup 2022,3857276,pass,technique,10,955,dict:10
+World Cup 2022,3857276,pass,through_ball,3,955,bool:3
+World Cup 2022,3857276,pass,type,162,955,dict:162
+World Cup 2022,3857276,carry,end_location,782,782,list:782
+Euro 2020,3788758,event,ball_receipt,116,3337,dict:116
+Euro 2020,3788758,event,ball_recovery,8,3337,dict:8
+Euro 2020,3788758,event,block,2,3337,dict:2
+Euro 2020,3788758,event,carry,762,3337,dict:762
+Euro 2020,3788758,event,clearance,22,3337,dict:22
+Euro 2020,3788758,event,counterpress,112,3337,bool:112
+Euro 2020,3788758,event,dribble,33,3337,dict:33
+Euro 2020,3788758,event,duel,48,3337,dict:48
+Euro 2020,3788758,event,duration,2447,3337,float:2447
+Euro 2020,3788758,event,foul_committed,10,3337,dict:10
+Euro 2020,3788758,event,foul_won,8,3337,dict:8
+Euro 2020,3788758,event,goalkeeper,34,3337,dict:34
+Euro 2020,3788758,event,id,3337,3337,str:3337
+Euro 2020,3788758,event,index,3337,3337,int:3337
+Euro 2020,3788758,event,interception,33,3337,dict:33
+Euro 2020,3788758,event,location,3314,3337,list:3314
+Euro 2020,3788758,event,minute,3337,3337,int:3337
+Euro 2020,3788758,event,off_camera,54,3337,bool:54
+Euro 2020,3788758,event,out,31,3337,bool:31
+Euro 2020,3788758,event,pass,925,3337,dict:925
+Euro 2020,3788758,event,period,3337,3337,int:3337
+Euro 2020,3788758,event,play_pattern,3337,3337,dict:3337
+Euro 2020,3788758,event,player,3324,3337,dict:3324
+Euro 2020,3788758,event,position,3324,3337,dict:3324
+Euro 2020,3788758,event,possession,3337,3337,int:3337
+Euro 2020,3788758,event,possession_team,3337,3337,dict:3337
+Euro 2020,3788758,event,related_events,3195,3337,list:3195
+Euro 2020,3788758,event,second,3337,3337,int:3337
+Euro 2020,3788758,event,shot,30,3337,dict:30
+Euro 2020,3788758,event,substitution,9,3337,dict:9
+Euro 2020,3788758,event,tactics,5,3337,dict:5
+Euro 2020,3788758,event,team,3337,3337,dict:3337
+Euro 2020,3788758,event,timestamp,3337,3337,str:3337
+Euro 2020,3788758,event,type,3337,3337,dict:3337
+Euro 2020,3788758,event,under_pressure,643,3337,bool:643
+Euro 2020,3788758,360,event_uuid,2838,2838,str:2838
+Euro 2020,3788758,360,freeze_frame,2838,2838,list:2838
+Euro 2020,3788758,360,visible_area,2838,2838,list:2838
+Euro 2020,3788758,360_player,actor,41664,41664,bool:41664
+Euro 2020,3788758,360_player,keeper,41664,41664,bool:41664
+Euro 2020,3788758,360_player,location,41664,41664,list:41664
+Euro 2020,3788758,360_player,teammate,41664,41664,bool:41664
+Euro 2020,3788758,pass,aerial_won,13,925,bool:13
+Euro 2020,3788758,pass,angle,925,925,float:925
+Euro 2020,3788758,pass,assisted_shot_id,21,925,str:21
+Euro 2020,3788758,pass,body_part,868,925,dict:868
+Euro 2020,3788758,pass,cross,7,925,bool:7
+Euro 2020,3788758,pass,cut_back,2,925,bool:2
+Euro 2020,3788758,pass,deflected,1,925,bool:1
+Euro 2020,3788758,pass,end_location,925,925,list:925
+Euro 2020,3788758,pass,goal_assist,2,925,bool:2
+Euro 2020,3788758,pass,height,925,925,dict:925
+Euro 2020,3788758,pass,inswinging,4,925,bool:4
+Euro 2020,3788758,pass,length,925,925,float:925
+Euro 2020,3788758,pass,miscommunication,1,925,bool:1
+Euro 2020,3788758,pass,no_touch,3,925,bool:3
+Euro 2020,3788758,pass,outcome,151,925,dict:151
+Euro 2020,3788758,pass,outswinging,3,925,bool:3
+Euro 2020,3788758,pass,recipient,891,925,dict:891
+Euro 2020,3788758,pass,shot_assist,19,925,bool:19
+Euro 2020,3788758,pass,switch,26,925,bool:26
+Euro 2020,3788758,pass,technique,15,925,dict:15
+Euro 2020,3788758,pass,through_ball,8,925,bool:8
+Euro 2020,3788758,pass,type,149,925,dict:149
+Euro 2020,3788758,carry,end_location,762,762,list:762

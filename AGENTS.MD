@@ -4,7 +4,7 @@
 - This repository supports a machine learning research project on how individual attacking actions disrupt compact defensive structures in international soccer.
 - The research considers penetration, defensive stretching, space creation, and disorganization. These are research concepts, not yet validated measurements.
 - The project owner makes research and scope decisions. Agents implement assigned tasks, investigate evidence, and raise questions or concerns; they do not independently redefine the project.
-- The project brief in `docs/` provides fuller research context. Distinguish proposed methods from findings confirmed with data.
+- The project brief `docs/CompSci 715 Project Brief.pdf` provides fuller research context. Distinguish proposed methods from findings confirmed with data.
 
 ## 2. Repository orientation
 - `README.md`: project overview, setup information, and data sources/provenance.
@@ -34,6 +34,7 @@
 - Keep exploratory code and provisional outputs distinguishable from accepted implementations and findings. Do not silently replace validated work with an unverified experiment.
 - Consider data quality, missingness, sampling bias, reproducibility, and train/test leakage whenever relevant. Do not confuse association, prediction, and causation.
 - For positional snapshots, do not claim continuous tracking or individual defender movement without evidence. Account for incomplete visibility when interpreting defensive structure.
+- Validate tactical definitions with representative examples and edge cases; do not infer a low block from local density alone, and explicitly handle ambiguous or insufficiently observed situations.
 - When exploring alternatives, record meaningful failures and limitations rather than hiding them.
 
 ## 6. Verification and completeness
