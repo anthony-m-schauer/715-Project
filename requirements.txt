@@ -1,0 +1,6 @@
+# Initial data inspection, tabular exploration, and visualization.
+# Versions are unpinned until the complete environment is tested.
+numpy
+pandas
+matplotlib
+requests
